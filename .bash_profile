@@ -16,4 +16,9 @@ export JAVA_HOME="$(/usr/libexec/java_home)"
 # added by Anaconda3 2.3.0 installer
 export PATH="/Users/akshayrajgollahalli/anaconda/bin:$PATH"
 
+# MySQL
+export PATH="/usr/local/mysql/bin:$PATH"
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 alias ll='ls -lahG'
