@@ -15,3 +15,5 @@ export JAVA_HOME="$(/usr/libexec/java_home)"
 
 # added by Anaconda3 2.3.0 installer
 export PATH="/Users/akshayrajgollahalli/anaconda/bin:$PATH"
+
+alias ll='ls -lahG'
