@@ -1,1 +1,2 @@
-export JAVA_HOME="$(/usr/libexec/java_home)"
+# Android
+export NVPACK_ROOT="/Users/akshayrajgollahalli/NVPACK"
