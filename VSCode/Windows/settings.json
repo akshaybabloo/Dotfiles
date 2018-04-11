@@ -30,7 +30,9 @@
     ],
     "[markdown]": {
         "editor.wordWrap": "on",
-        "editor.quickSuggestions": true
+        "editor.quickSuggestions": true,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
     },
     "markdown-toc.depthFrom": 2,
     "window.menuBarVisibility": "default"
