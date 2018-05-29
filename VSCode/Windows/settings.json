@@ -2,7 +2,6 @@
     "workbench.colorTheme": "Solarized Dark",
     "explorer.confirmDelete": false,
     "workbench.iconTheme": "vscode-icons",
-
     // Controls if quick suggestions should show up while typing
     "editor.quickSuggestions": {
         "other": true,
@@ -11,13 +10,10 @@
     },
     // Controls if suggestions should be accepted on 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions. The value 'smart' means only accept a suggestion with Enter when it makes a textual change
     "editor.acceptSuggestionOnEnter": "on",
-
     // Controls the delay in ms after which quick suggestions will show up.
     "editor.quickSuggestionsDelay": 10,
-
     // Enable word based suggestions
     "editor.wordBasedSuggestions": true,
-
     // Enable parameter hints
     "editor.parameterHints": true,
     "vsicons.projectDetection.autoReload": true,
@@ -35,5 +31,13 @@
         "editor.insertSpaces": true
     },
     "markdown-toc.depthFrom": 2,
-    "window.menuBarVisibility": "default"
+    "window.menuBarVisibility": "default",
+    // For prettier - install prettier
+    "prettier.singleQuote": true,
+    "prettier.eslintIntegration": true,
+    "prettier.tabWidth": 2,
+    "editor.formatOnSave": true,
+    // Fira Code stuff - download fonts from https://github.com/tonsky/FiraCode 
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true
 }
