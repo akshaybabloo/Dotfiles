@@ -18,7 +18,7 @@
     "editor.parameterHints": true,
     "vsicons.projectDetection.autoReload": true,
     "editor.fontSize": 16,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
     "python.autoComplete.addBrackets": true,
     "cSpell.language": "en-GB",
     "cSpell.userWords": [
@@ -42,5 +42,12 @@
     "editor.fontLigatures": true,
     "window.titleBarStyle": "custom",
     "team.showWelcomeMessage": false,
-    "go.autocompleteUnimportedPackages": true
+    "go.autocompleteUnimportedPackages": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "powershell.powerShellExePath": "c:/Program Files/PowerShell/6/pwsh.exe",
+    "csharp.suppressDotnetRestoreNotification": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "omnisharp.projectLoadTimeout": 120,
+    "files.trimTrailingWhitespace": true
 }
