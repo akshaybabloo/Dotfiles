@@ -1,0 +1,53 @@
+
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "vscode-icons",
+    // Controls if quick suggestions should show up while typing
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    // Controls if suggestions should be accepted on 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions. The value 'smart' means only accept a suggestion with Enter when it makes a textual change
+    "editor.acceptSuggestionOnEnter": "on",
+    // Controls the delay in ms after which quick suggestions will show up.
+    "editor.quickSuggestionsDelay": 10,
+    // Enable word based suggestions
+    "editor.wordBasedSuggestions": true,
+    // Enable parameter hints
+    "editor.parameterHints": true,
+    "vsicons.projectDetection.autoReload": true,
+    "editor.fontSize": 16,
+    "terminal.integrated.shell.windows": "/usr/local/bin/pwsh",
+    "python.autoComplete.addBrackets": true,
+    "cSpell.language": "en-GB",
+    "cSpell.userWords": [
+        "Setup"
+    ],
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": true,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "markdown-toc.depthFrom": 2,
+    // For prettier - install prettier
+    "prettier.singleQuote": true,
+    "prettier.eslintIntegration": true,
+    "prettier.tabWidth": 2,
+    //"editor.formatOnSave": true,
+    // Fira Code stuff - download fonts from https://github.com/tonsky/FiraCode
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "window.titleBarStyle": "custom",
+    "team.showWelcomeMessage": false,
+    "go.autocompleteUnimportedPackages": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "powershell.powerShellExePath": "/usr/local/bin/pwsh",
+    "csharp.suppressDotnetRestoreNotification": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "omnisharp.projectLoadTimeout": 120,
+    "files.trimTrailingWhitespace": true
+}
