@@ -19,7 +19,6 @@
     "editor.parameterHints": true,
     "vsicons.projectDetection.autoReload": true,
     "editor.fontSize": 16,
-    "terminal.integrated.shell.windows": "/usr/local/bin/pwsh",
     "python.autoComplete.addBrackets": true,
     "cSpell.language": "en-GB",
     "cSpell.userWords": [
@@ -44,10 +43,12 @@
     "team.showWelcomeMessage": false,
     "go.autocompleteUnimportedPackages": true,
     "vsicons.dontShowNewVersionMessage": true,
-    "powershell.powerShellExePath": "/usr/local/bin/pwsh",
     "csharp.suppressDotnetRestoreNotification": true,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "omnisharp.projectLoadTimeout": 120,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "powershell.powerShellExePath": "/usr/local/microsoft/powershell/6/pwsh",
+    "terminal.integrated.shell.osx": "/usr/local/bin/pwsh",
+    "terminal.integrated.shellArgs.osx": []
 }
